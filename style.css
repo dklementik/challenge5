@@ -1,5 +1,116 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+header {
+  background-color: black;
+  color: white;
+  position: absolute;
+  width: 100%;
+  line-height: 3;
+  height: 3em;
+  padding: 0;
+}
+header * {
+  display: inline-block;
+}
+header ul li {
+  display: inline-block;
+}
+h2 {
+  font-size: 12px;
+  font-weight: bold;
+}
+nav {
+  position: absolute;
+  width: 220px;
+  top: 3em;
+  left: 0;
+  background-color: black;
+  color: white;
+}
+nav .border li:first-child {
+  border-top: 1px solid grey;
+}
+nav p {
+  padding: 10px;
+  color: grey;
+}
+nav a, nav a:hover {
+  text-decoration: none;
+  color: white;
+  line-height: 3;
+}
+nav li:hover {
+  color: white;
+  background-color: #24890D;
+}
+nav .border li {
+  padding-left: 10px;
+  border-bottom: 1px solid grey;
+}
+nav img {
+  width: 100%;
+}
+.special {
+  padding: 0 20px;
+}
+body > div {
+  position: absolute;
+  top: 3em;
+  left: 220px;
+}
+.margin {
+  padding: 0;
+}
 .black {
-  background-color: #000;
-  color: #FFF;
+  background-color: black;
+  color: white;
+}
+.size {
+  font-size: 18px;
+}
+input {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color: #191919;
+  border-radius: 2px;
+  border: 1px solid grey;
+  color: grey;
+}
+em {
+  display: block;
+}
+.green {
+  text-decoration: none;
+  color: #24890D;
+}
+.gigs{
+  padding: 10px;
+}
+.border1{
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+.solid{
+  border-top: 5px solid black;
+  line-height: 2;
   text-transform: uppercase;
+  font-weight: bold;
+}
+i.play{
+  background-color: black;
+  color: white;
+  line-height: 3;
+  text-align: center;
+  width: 3em;
+  margin-right: 8px;
+}
+.grey{
+  color: grey;
+}
+.padding {
+  padding: 50px 100px;
+}
+.vide {
+  height: 250px;
 }
