@@ -1,5 +1,9 @@
 body {
   font-family: 'Lato', sans-serif;
+  background-color: black;
+}
+.white{
+  background-color: white;
 }
 header {
   background-color: black;
@@ -18,7 +22,7 @@ header * {
 .search{
   background-color:#24890D;
   padding: 23px;
-  font-size: 25px;
+  font-size: 24px;
 }
 header li a:hover{
   color: #24890D;
@@ -51,16 +55,12 @@ nav .border li:first-child {
   border-top: 1px solid grey;
 }
 nav p {
-  padding: 10px;
   color: grey;
 }
 nav a, nav a:hover {
   text-decoration: none;
   color: white;
   /*line-height: 3;*/
-}
-nav li{
-  padding: 1em;
 }
 nav li:hover {
   color: white;
@@ -72,6 +72,10 @@ nav .border li {
 }
 nav img {
   width: 100%;
+}
+.endnav{
+  font-size: 13px;
+  padding-top: 15em
 }
 .height h2{
   font-size: 20px;
@@ -88,6 +92,12 @@ nav img {
 }
 .special {
   padding: 0 20px;
+}
+.special ul{
+  padding-top: 2em;
+}
+.special li{
+  line-height: 3;
 }
 .margin {
   padding: 0;
@@ -146,6 +156,10 @@ i.play{
 }
 .vide {
   height: 350px;
+}
+.deco{
+  text-decoration: none;
+  color:#24890D;
 }
 footer{
   height: 5em;
